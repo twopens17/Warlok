@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/*/* Gaya untuk navbar */
+#custom-navbar {
+    background: linear-gradient(to right, #663399, #9932CC);
+    padding: 10px 0;
+}
+
+#brand-logo {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#category-link {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #DDA0DD;
+}
+
+.nav-link {
+    color: white !important;
+    margin-right: 15px;
+}
+
+#notifications img,
+#messages img,
+#user-icon {
+    width: 24px;
+    height: 24px;
+    filter: invert(100%);
+}
+
+.form-control {
+    border-radius: 20px;
+    width: 200px;
+}
+
+.btn-outline-light {
+    color: white;
+    border: 1px solid white;
+}
+
+/* Gaya untuk konten utama */
+#main-content {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#status-update {
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 10px;
+}
+
+#status-update .card-body {
+    padding: 15px;
+}
+
+#status-update .media img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#post {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#post .card-body {
+    padding: 15px;
+}
+
+#post .media img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#post img {
+    border-radius: 10px;
+}
+
+.btn {
+    margin: 5px;
+}

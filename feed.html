@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/feed.css"> <!-- Gaya tambahan -->
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="custom-navbar">
+        <a class="navbar-brand" href="#" id="brand-logo">WARLOK</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#" id="category-link">Category</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="searching" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="notifications"><img src="notification-icon.png" alt="Notifications"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="messages"><img src="message-icon.png" alt="Messages"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="user-icon.png" alt="Profile" id="user-icon"></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-4" id="main-content">
+        <div class="card mb-3" id="status-update">
+            <div class="card-body">
+                <div class="media">
+                    <img src="user-avatar.png" class="mr-3" alt="User Avatar">
+                    <div class="media-body">
+                        <input type="text" class="form-control" placeholder="What's on your mind?">
+                    </div>
+                </div>
+                <div class="mt-3 text-center">
+                    <button class="btn btn-light"><i class="fas fa-video"></i> Video</button>
+                    <button class="btn btn-light"><i class="fas fa-camera"></i> Photo</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Post -->
+        <div class="card" id="post">
+            <div class="card-body">
+                <div class="media">
+                    <img src="user-avatar.png" class="mr-3" alt="User Avatar">
+                    <div class="media-body">
+                        <h5 class="mt-0">Steven</h5>
+                        wahh dijalan patal sedang macet!
+                    </div>
+                </div>
+                <img src="/assets/login.png" class="img-fluid mt-3" alt="Traffic">
+                <div class="mt-3 text-center">
+                    <button class="btn btn-outline-dark"><i class="fas fa-thumbs-up"></i> Like</button>
+                    <button class="btn btn-outline-dark"><i class="fas fa-comment"></i> Comment</button>
+                    <button class="btn btn-outline-dark"><i class="fas fa-share"></i> Share</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="scripts.js"></script> <!-- Fungsionalitas tambahan -->
+</body>
+</html>
